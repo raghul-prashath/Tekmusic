@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;800&display=swap');
+
 .App {
   text-align: center;
+  height: 100%;
+}
+
+.root{
+  height: 100%;
 }
 
 .App-logo {
@@ -12,6 +19,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
 
 .App-header {
   background-color: #282c34;

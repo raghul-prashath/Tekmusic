@@ -1,13 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+html{
+  height:100%;
+  
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Dosis', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+.bgslider{
+  margin: auto;
+  width: 500px;
+  margin-top: 350px;
+  text-align: center;
 }
 
+.nav {
+  background-color: rgb(10, 29, 66, 0.4);
+
+}
+
+::-webkit-scrollbar{
+  width:4px;
+}
+
+.maincontent {
+
+  color:blanchedalmond;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 900;
+  font-size: 2.2rem;
+  letter-spacing: 0.15rem;
+}
+
+.icon-i{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon{
+  margin-top : 1.5rem;
+  color: #E8E8E8;
+}
+
+
+.fonttm {
+  margin-left: 2rem;
+  font-family: 'Dosis', sans-serif;  
+
+  font-size: 2.2rem;
+
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+
+.fontnav{
+  margin-right: 1rem;
+  padding-left : 2rem;
+  font-family: 'Dosis', sans-serif;  
+
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  
+}
+
+.tognav{
+  margin-right: 1rem;
+  
+}
+
+.text-bt{
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Dosis', sans-serif;  
+  font-weight: bold;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  color: white;
+}
+
+.button {
+  margin: auto;
+  border: none;
+  margin-top: 1rem;
+  border-radius: 3px;
+  background: linear-gradient(to right, rgb(10, 29, 66) 50%, #d13739 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.2s ease-out;
+}
+
+.button:hover {
+  background-position: left bottom;
+}
+
+
+
+@media (max-width:450px){
+  .maincontent{
+    font-size: 1.7rem;
+  }
+  .text-bt{
+    font-size: 0.9rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+  }
+  
+  .fontnav{
+    font-weight: 900;
+    font-size: 1.3rem;
+  }
+
+  .bgslider{
+
+    margin: auto;
+    width: 350px;
+    margin-top: 400px;
+    text-align: center;
+  }
+  
+}
+
+
+
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Dosis', sans-serif;
+}
+
+.news {
+  margin-top: 18rem;
 }
